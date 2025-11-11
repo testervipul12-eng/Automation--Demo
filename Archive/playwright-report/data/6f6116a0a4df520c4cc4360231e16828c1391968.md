@@ -1,0 +1,45 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e4]:
+  - generic [ref=e5]:
+    - img "Logo" [ref=e8]
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - heading "Welcome back" [level=1] [ref=e13]
+        - generic [ref=e15]: Log in to access your personalized dashboard and explore new features tailored just for you.
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - textbox [ref=e24]
+            - generic:
+              - text: Email
+              - generic: "*"
+          - generic [ref=e25]:
+            - generic [ref=e31]:
+              - textbox [ref=e32]
+              - img "eye-invisible" [ref=e34] [cursor=pointer]:
+                - img [ref=e35] [cursor=pointer]
+            - generic:
+              - text: Password
+              - generic: "*"
+          - generic [ref=e38]:
+            - generic [ref=e44] [cursor=pointer]:
+              - combobox [ref=e48] [cursor=pointer]
+              - generic:
+                - img:
+                  - img
+            - generic: Language
+        - generic [ref=e50]:
+          - button "Sign in" [disabled] [ref=e51]:
+            - generic: Sign in
+          - button "Reset password" [ref=e52] [cursor=pointer]:
+            - generic [ref=e53] [cursor=pointer]: Reset password
+        - generic [ref=e54]:
+          - text: Create New Account?
+          - button "Sign up" [ref=e55] [cursor=pointer]:
+            - generic [ref=e56] [cursor=pointer]: Sign up
+  - generic [ref=e59]:
+    - img [ref=e60]
+    - img "Logo" [ref=e68]
+```
