@@ -8,6 +8,9 @@ test.describe('Register Page UI and Functional Tests', () => {
     await page.goto(registerUrl);
   });
 
+
+
+  
   // ---------- UI ELEMENT VERIFICATION ----------
   test('TC 001 : Verify page title is "Create account"', async ({ page }) => {
     await expect(page.locator('//h1[normalize-space()="Create account"]')).toBeVisible();
